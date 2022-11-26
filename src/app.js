@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const characters = [
   { name: 'мечник', health: 10 },
   { name: 'маг', health: 100 },
@@ -5,3 +6,5 @@ const characters = [
   { name: 'лучник', health: 0 },
 ];
 const alive = characters.filter((item) => item.health > 0);
+// eslint-disable-next-line no-console
+console.log(alive);
